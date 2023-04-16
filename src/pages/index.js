@@ -167,7 +167,7 @@ const Home = () => {
             {diffYears === '--' ? (
               diffYears
             ) : (
-              <CountUp isCounting end={diffYears} />
+              <CountUp isCounting easing="linear" end={diffYears} />
             )}
           </p>
           <p>years</p>
@@ -177,7 +177,7 @@ const Home = () => {
             {diffMonths === '--' ? (
               diffMonths
             ) : (
-              <CountUp isCounting end={diffMonths} />
+              <CountUp isCounting easing="linear" end={diffMonths} />
             )}
           </p>
           <p>months</p>
@@ -187,7 +187,7 @@ const Home = () => {
             {diffDays === '--' ? (
               diffDays
             ) : (
-              <CountUp isCounting end={diffDays} />
+              <CountUp isCounting easing="linear" end={diffDays} />
             )}
           </p>
           <p>days</p>
