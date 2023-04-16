@@ -6,11 +6,26 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontSize: {
+      body: ['104px', '110%'],
+      bodyS: ['56px', '110%'],
+      input: ['32px', '48px'],
+      inputS: ['20px', '30px'],
+      label: ['14px', '21px'],
+      labelS: ['12px', '18px'],
+    },
+    colors: {
+      white: '#FFFFFF',
+      black: '#151515',
+      purple: '#854DFF',
+      lightGrey: '#F0F0F0',
+      grey: '#716F6F',
+      line: '#DCDCDC',
+      red: '#FF5959',
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        sans: 'Poppins',
       },
     },
   },
